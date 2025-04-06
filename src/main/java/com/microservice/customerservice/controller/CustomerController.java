@@ -13,6 +13,7 @@ import com.microservice.customerservice.request.CustomerRequest;
 
 
 @RestController
+@RequestMapping("api/customer")
 public class CustomerController {
 
 	@GetMapping(value="/find/{customerId}")
