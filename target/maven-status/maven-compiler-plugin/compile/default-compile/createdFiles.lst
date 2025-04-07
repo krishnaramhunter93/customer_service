@@ -1,0 +1,6 @@
+com\microservice\customerservice\service\CustomerService.class
+com\microservice\customerservice\CustomerServiceApplication.class
+com\microservice\customerservice\controller\CustomerController.class
+com\microservice\customerservice\dao\CustomerDao.class
+com\microservice\customerservice\request\CustomerRequest.class
+com\microservice\customerservice\model\Customer.class
