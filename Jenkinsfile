@@ -2,8 +2,8 @@ pipeline {
     agent any
 
     tools {
-        jdk 'jdk-21'            // Make sure this matches your Jenkins JDK install name
-        maven 'maven-3.8'       // Make sure this matches your Jenkins Maven install name
+        jdk 'jdk21'            // Make sure this matches your Jenkins JDK install name
+        maven 'maven3'       // Make sure this matches your Jenkins Maven install name
     }
 
     environment {
