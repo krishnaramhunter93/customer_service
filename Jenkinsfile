@@ -7,7 +7,7 @@ pipeline {
     }
 
     environment {
-        JAVA_HOME = tool name: 'jdk-21', type: 'jdk'
+        JAVA_HOME = tool name: 'jdk21', type: 'jdk'
         PATH = "${JAVA_HOME}/bin:${env.PATH}"
     }
 
